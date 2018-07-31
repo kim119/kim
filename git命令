@@ -27,3 +27,7 @@ $git clean -fdx
 远程操作
  git remote add origin url
  git remote rm origin
+
+打正式版
+git tag -a <tagname> -m <msg>
+git push --tags
