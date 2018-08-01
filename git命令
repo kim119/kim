@@ -31,3 +31,8 @@ $git clean -fdx
 打正式版
 git tag -a <tagname> -m <msg>
 git push --tags
+
+删除已经提交成功的文件 
+git rm -r --cached a/2.txt                    // 删除a目录下的2.txt文件 
+git commit -m  "删除a目录下的2.txt文件"  // commit
+git push                 
